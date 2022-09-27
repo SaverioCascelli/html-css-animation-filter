@@ -1,0 +1,143 @@
+/* ***********soluzione 1********** */
+
+.ex-1-square{
+    transition: all 2s;
+}
+
+.ex-1-square:hover{
+    background-color: red;
+}
+
+
+/* ***********soluzione 2********** */
+
+.ex-2-square{
+    transition: all 2s;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+/* ***********soluzione 3********** */
+
+.ex-3-square{
+    transition: all .3s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+/* ***********soluzione 4********** */
+
+.ex-4-square{
+    transition: all .8s;
+}
+
+.ex-4-square:hover{
+   opacity: 0;
+}
+
+
+/* ***********soluzione 5********** */
+
+.ex-5-square{
+    transition: all 1s;
+}
+
+.ex-5-square:hover{
+   transform: scale(2);
+}
+
+.ex-5-square:active{
+    transform: scale(.5);
+ }
+
+
+ /* ***********soluzione 6********** */
+
+
+ .ex-6-img:hover{
+    filter: grayscale(1);
+ }
+
+  /* ***********soluzione 7********** */
+
+  .ex-7-img{
+    transition: all 2s;
+  }
+
+  .ex-7-img:hover{
+    filter: brightness(1.15) grayscale(1);
+ }
+
+
+   /* ***********soluzione 8********** */
+
+   .ex-8-img{
+    transition: all 2s;
+  }
+
+  .ex-8-img:hover{
+    filter: brightness(1.15) grayscale(.7);
+    border-radius: 20px;
+ }
+
+
+ 
+   /* ***********soluzione 9********** */
+
+   .ex-9-img{
+    transition: all 2s;
+  }
+
+  .ex-9-img:hover{
+    filter: brightness(1.15) grayscale(.7);
+    border-radius: 20px;
+    transform: scale(1.5);
+ }
+
+ /* ***********soluzione 10********** */
+
+.ex-10-icon{
+    animation-name:spin-it;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin-it{
+    0% {transform: rotate(360deg);   }
+}
+
+ /* ***********soluzione 11********** */
+
+ .ex-11-icon:hover{
+    animation: crazy-spin 2s linear 1 normal;
+}
+
+
+@keyframes crazy-spin {
+    90% {transform: rotate(300deg);}
+}
+
+
+/* ***********soluzione 12********** */
+
+.ex-12-top-white:hover{
+    animation: move-white 2s linear 1 normal
+}
+
+@keyframes move-white {
+    
+}
+
+.ex-12-top-white{
+
+}
+
+
+.ex-12-bottom-white{
+
+}
